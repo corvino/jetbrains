@@ -32,7 +32,8 @@ The preferences plist has proven problematic to sync; apply preferences by hand:
 - Source Control:
   - -Add and remove files automatically
 
-#### IntelliJ IDEA
-- Preferences are stored in `~/Library/Preferences/IntelliJIDEA<#>` or `~/Library/Preferences/IdeaIC<#>`, where `<#>` is a version number.
+#### Jetbrains IDEs
+- Preferences are stored in `~/Library/Preferences/<Application><Version>` or.
   - Keymaps are stored in `/keymaps` relative to the preference directory.
   - Colors are stored in `/colors` relative to the preference directory.
+  - For example, `~/Library/Preferences/Gogland1.0/keymaps/`
